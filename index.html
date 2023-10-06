@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather 🌤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="bodyBG">
+    <div class="weatherContent">          
+        <div class="divSearched">        
+            <p class="Tittle">Search country and city</p>    
+            <!-- <p class="degree">22°C</p>      
+            <p class="icon">🌧️</p>      
+            <p class="countrySearched">Argentina</p>            
+            <p class="maxminDegree">Min 15°C</p>
+            <p class="maxminDegree">max 23°C</p> -->
+        </div>
+        <div class="divForm">
+            <form action="" method="POST" class="getWeather">
+                <select name="" id="country">
+                    <option selected disabled>Select the country</option>
+                    <option value="AR">Argentina</option>
+                    <option value="CO">Colombia</option>
+                    <option value="BR">Brazil</option>
+                    <option value="ES">Spain</option>
+                    <option value="MX">Mexico</option>
+                    <option value="PE">Peru</option>
+                    <option value="SE">Sweden</option>
+                </select>
+                <input type="text" name="city" id="city" placeholder="Write your city..."><br>
+                <input class="inputButton" type="submit" name="" id="btnform" value="Get Weather">
+                
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
